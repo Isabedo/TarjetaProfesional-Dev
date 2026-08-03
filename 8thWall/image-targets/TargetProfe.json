@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 0,
+    "width": 960,
+    "height": 1280,
+    "isRotated": false,
+    "originalWidth": 960,
+    "originalHeight": 1280
+  },
+  "imagePath": "image-targets/TargetProfe_luminance.jpg",
+  "metadata": null,
+  "name": "TargetProfe",
+  "resources": {
+    "originalImage": "TargetProfe_original.jpg",
+    "croppedImage": "TargetProfe_cropped.jpg",
+    "thumbnailImage": "TargetProfe_thumbnail.jpg",
+    "luminanceImage": "TargetProfe_luminance.jpg"
+  },
+  "created": 1785773653427,
+  "updated": 1785774471617
+}
