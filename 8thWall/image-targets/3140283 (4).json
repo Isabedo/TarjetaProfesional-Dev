@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 23,
+    "width": 484,
+    "height": 645,
+    "isRotated": true,
+    "originalWidth": 530,
+    "originalHeight": 645
+  },
+  "imagePath": "image-targets/3140283 (4)_luminance.png",
+  "metadata": null,
+  "name": "3140283 (4)",
+  "resources": {
+    "originalImage": "3140283 (4)_original.png",
+    "croppedImage": "3140283 (4)_cropped.png",
+    "thumbnailImage": "3140283 (4)_thumbnail.png",
+    "luminanceImage": "3140283 (4)_luminance.png"
+  },
+  "created": 1785943715973,
+  "updated": 1785943778147
+}

@@ -132,7 +132,7 @@
       "position": [
         0,
         0,
-        0
+        -0.12552086082590896
       ],
       "rotation": [
         -0.7071067811865475,
@@ -151,7 +151,7 @@
       "components": {},
       "name": "Objetivo de la imagen",
       "imageTarget": {
-        "name": "TargetProfe"
+        "name": "3140283 (4)"
       },
       "order": 4.793762729375479
     }
