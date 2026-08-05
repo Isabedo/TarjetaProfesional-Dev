@@ -98,8 +98,8 @@
       "id": "e928f2ae-0a20-444a-a622-a7d72bd2bb35",
       "position": [
         -0.0005388074019737066,
-        0.07385712372551412,
-        -1.639957585853094e-17
+        -0.17263071624466753,
+        3.8331719186472385e-17
       ],
       "rotation": [
         0.7071067811865475,
@@ -132,7 +132,7 @@
       "position": [
         0,
         0,
-        -0.12552086082590896
+        -0.3763126293151864
       ],
       "rotation": [
         -0.7071067811865475,
@@ -154,6 +154,195 @@
         "name": "3140283 (4)"
       },
       "order": 4.793762729375479
+    },
+    "7b6783bf-660e-4aa7-80ef-1ef9ad737d16": {
+      "id": "7b6783bf-660e-4aa7-80ef-1ef9ad737d16",
+      "position": [
+        -0.031243993644470842,
+        0.2553194675300923,
+        -0.8107228544953511
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Goku_y_Vegeta_bailando__P.mp4"
+        },
+        "opacity": 1,
+        "opacityMap": null,
+        "wireframe": false,
+        "textureFiltering": "smooth",
+        "wrap": "repeat",
+        "offsetX": 0
+      },
+      "parentId": "dddf4060-ab88-482e-830f-603bb1114626",
+      "components": {},
+      "name": "Plane",
+      "order": 6.340944121064613,
+      "videoControls": {
+        "paused": true
+      }
+    },
+    "3341805f-5b1b-491c-92a1-11cf94a92d03": {
+      "id": "3341805f-5b1b-491c-92a1-11cf94a92d03",
+      "position": [
+        0.03124399364447082,
+        0.155685807596954,
+        0.10225509532476507
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.5629727875422458,
+        0.5559038153192757,
+        0.41351288070862824
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "7b6783bf-660e-4aa7-80ef-1ef9ad737d16",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "PLAY",
+      "order": 10.159520831854577
+    },
+    "d8a605ca-8b74-428a-89b5-e5ec66f4438a": {
+      "id": "d8a605ca-8b74-428a-89b5-e5ec66f4438a",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3341805f-5b1b-491c-92a1-11cf94a92d03",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 0.19438535775733767
+    },
+    "7763119b-509a-44d5-b486-4b50ab2356f2": {
+      "id": "7763119b-509a-44d5-b486-4b50ab2356f2",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3341805f-5b1b-491c-92a1-11cf94a92d03",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "PLAY",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 1.371225261338611
+    },
+    "dddf4060-ab88-482e-830f-603bb1114626": {
+      "id": "dddf4060-ab88-482e-830f-603bb1114626",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "d4b4134e-7ebc-45af-adf8-ffd28a925c3d": {
+          "id": "d4b4134e-7ebc-45af-adf8-ffd28a925c3d",
+          "name": "video",
+          "parameters": {
+            "button": {
+              "type": "entity",
+              "id": "3341805f-5b1b-491c-92a1-11cf94a92d03"
+            },
+            "video": {
+              "type": "entity",
+              "id": "7b6783bf-660e-4aa7-80ef-1ef9ad737d16"
+            }
+          }
+        }
+      },
+      "name": "ocntroller",
+      "order": 8.330176075933274
     }
   },
   "spaces": {
